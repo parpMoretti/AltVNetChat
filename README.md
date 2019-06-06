@@ -25,3 +25,12 @@ To set a message's color (Unable to for sender yet), you need to use the followi
 ```player.Emit("chatmessage", "[INFO]", "{FDFE8B}" + message);```
 
 This would send a white [INFO] with yellow message string
+
+## Toggle Chat Input
+
+To stop input onto the chat you can send the following event to the player.
+
+```
+alt.onServer('toggleChat', (state) => {
+	hidden = state;
+});```
