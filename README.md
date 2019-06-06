@@ -33,4 +33,5 @@ To stop input onto the chat you can send the following event to the player.
 ```
 alt.onServer('toggleChat', (state) => {
 	hidden = state;
-});```
+});
+```
