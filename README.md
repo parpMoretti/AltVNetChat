@@ -30,7 +30,7 @@ This would send a white [INFO] with yellow message string
 
 To stop input onto the chat you can send the following event to the player.
 
-```
+```js
 alt.onServer('toggleChat', (state) => {
 	hidden = state;
 });
